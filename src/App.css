@@ -1,18 +1,25 @@
-/* :root {
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+:root {
+  --white-color: #DFDFDF;
+  --background-color: #202020;
+  --primary-color-red: #C7140F;
+  --primary-color-blue: #2F6FD0;
+  --primary-color-green: #2AB31B;
+
+
+  /*
   --negative-color: #511E00;
   --positive-color: #2B4901;
-  --primary-color: #F0AC2F;
   --secondary-color: #7E6527;
   --black-color: #080904;
   --black-color-80: rgba(8, 9, 4, 0.8);
   ;
-  --white-color: #F9FAFC;
   --white-color-90: #F9FAFC90;
   --btn-color: #CBCCCD;
-  --background-color: rgba(29, 39, 34, 0.8);
   --background-color-cero: rgba(29, 39, 34, 0);
-  --border: #7E6527 2px solid;
-} */
+  --border: #7E6527 2px solid; */
+}
 
 * {
   box-sizing: border-box;
@@ -25,10 +32,5 @@ html {
 }
 
 body {
-  background-color: #242424;
-}
-
-h1 {
-  font-size: 40px;
-  color: white;
+  background-color: var(--background-color);
 }
